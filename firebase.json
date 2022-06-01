@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "ballot-on-flow",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
