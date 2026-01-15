@@ -1,250 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tokyo EM Technology & Co.は人々に等しくビジネスの機会を与えるアプリの作成者です。Tickets onFlowやAI based Stock Move Analysisなどの製品があります。">
-    <meta name="keywords" content="Tokyo EM Technology & Co., Tickets onFlow, Official Homepage, 東京EMテクノロジー">
-    <meta name="author" content="tokyo em technology">
-    <title>Tokyo EM Technology & Co.</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="TEM Technologies Co. 合同会社は人々に等しくビジネスの機会を与えるアプリの作成者です。Tickets onFlowやAI based Stock Move Analysisなどの製品があります。"
+    />
+    <meta
+      name="keywords"
+      content="TEM Technologies Co. 合同会社, Tickets onFlow, Official Homepage, 東京EMテクノロジー"
+    />
+    <meta name="author" content="tokyo em technology" />
+    <title>TEM Technologies Co. 合同会社</title>
 
     <!-- font icons -->
-    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
     <!-- owl carousel -->
-    <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.css" />
+    <link
+      rel="stylesheet"
+      href="vendors/owl-carousel/css/owl.theme.default.css"
+    />
 
     <!-- Bootstrap + Ollie main styles -->
-	<link rel="stylesheet" href="css/ollie.css">
+    <link rel="stylesheet" href="css/ollie.css" />
     <style>
+      img.brand-logo {
+        display: none;
+      }
+      @media only screen and (min-width: 600px) {
         img.brand-logo {
-            display: none;
+          display: block;
+          transform: translateX(-35px);
         }
-        @media only screen and (min-width: 600px)  {
-            img.brand-logo {
-                display: block;
-                transform: translateX(-35px);
-            }
-            img.brand-wide-logo {
-                padding-left: 70px;
-            }
+        .navbar-brand > img.brand-wide-logo {
+          width: 400px;
+          padding-left: 70px;
         }
-        @media only screen and (min-width: 768px)  {
-            img.brand-logo {
-                display: block;
-                transform: translateX(-15px);
-            }
-            img.brand-wide-logo {
-                padding-left: 100px;
-            }
+      }
+      @media only screen and (min-width: 768px) {
+        img.brand-logo {
+          display: block;
+          transform: translateX(-15px);
         }
-        @media only screen and (min-width: 1000px)  {
-            img.brand-logo {
-                display: block;
-                transform: translateX(-35px);
-            }
-            img.brand-wide-logo {
-                padding-left: 70px;
-            }
+        .navbar-brand > img.brand-wide-logo {
+          width: 500px;
+          padding-left: 100px;
         }
-        @media only screen and (min-width: 1160px)  {
-            img.brand-logo {
-                display: block;
-                transform: translateX(-45px);
-            }
-            img.brand-wide-logo {
-                padding-left: 60px;
-            }
+      }
+      @media only screen and (min-width: 1000px) {
+        img.brand-logo {
+          display: block;
+          transform: translateX(-35px);
         }
-        @media only screen and (min-width: 1400px)  {
-            img.brand-logo {
-                display: block;
-                transform: translateX(-135px);
-            }
-            img.brand-wide-logo {
-                padding-left: 0px;
-            }
+        .navbar-brand > img.brand-wide-logo {
+          width: 500px;
+          padding-left: 50px;
         }
+      }
+      @media only screen and (min-width: 1160px) {
+        img.brand-logo {
+          display: block;
+          transform: translateX(-45px);
+        }
+        .navbar-brand > img.brand-wide-logo {
+          width: 520px;
+          padding-left: 40px;
+        }
+      }
+      @media only screen and (min-width: 1400px) {
+        img.brand-logo {
+          display: block;
+          transform: translateX(-85px);
+        }
+        .navbar-brand > img.brand-wide-logo {
+          width: 520px;
+          padding-left: 0px;
+        }
+      }
     </style>
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <nav
+      id="scrollspy"
+      class="navbar navbar-light bg-light navbar-expand-lg fixed-top"
+      data-spy="affix"
+      data-offset-top="20"
+    >
+      <div class="container">
+        <img
+          src="imgs/tem_co.png"
+          alt=""
+          class="brand-img brand-logo"
+          style="width: 90px; margin-top: 5px; position: absolute"
+        />
+        <a class="navbar-brand" href="#">
+          <img
+            src="imgs/TEMTechnologiesCoLLC.png"
+            alt=""
+            class="brand-img brand-wide-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav id="scrollspy" class="navbar navbar-light bg-light navbar-expand-lg fixed-top" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <img src="imgs/temt_co.png" alt="" class="brand-img brand-logo" style="width: 100px;position: absolute;">
-            <a class="navbar-brand" href="#">
-                <img src="imgs/TokyoEMTechnologyCo.png" alt="" class="brand-img brand-wide-logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-
     <header id="home" class="header">
-        <div class="overlay"></div>
+      <div class="overlay"></div>
 
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">  
-            <div class="container">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="carousel-title">We Make <br> Blockchain Tools</h1>
-                          </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="carousel-title">We Make <br> AI Models</h1>
-                          </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="carousel-title">We Make<br> Creative Design</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>        
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="container">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  We Make<br />
+                  eSports Games
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  We Make<br />
+                  Blockchain Tools
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  We Make <br />
+                  Blockchain Wallets
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  We Make <br />
+                  AI Models
+                </h1>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="infos container mb-4 mb-md-2">
-            <div class="title">
-                <h6 class="subtitle font-weight-normal">It has a purpose.</h6>
-                <h5>Pursuing technologies that are kind to the earth and innovative</h5>
-                <p class="font-small">Tokyo EM Technology & Co. always supplies innovative ideas that people want to use.</p>
-            </div>
-            <div class="socials text-right">
-                <div class="row justify-content-between">
-                    <div class="col">
-                    </div>
-                </div>
-            </div>
+      <div class="infos container mb-4 mb-md-2">
+        <div class="title">
+          <h6 class="subtitle font-weight-normal">It has a purpose.</h6>
+          <h5>
+            Pursuing technologies that are kind to the earth and innovative
+          </h5>
+          <p class="font-small">
+            TEM Technologies Co. 合同会社 always supplies innovative ideas that
+            people want to use.
+          </p>
         </div>
+        <div class="socials text-right">
+          <div class="row justify-content-between">
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section class="section" id="about">
+      <div class="container">
+        <div class="row align-items-center mr-auto">
+          <div class="col-md-8">
+            <h3 class="section-title">About Us</h3>
+            <p>
+              TEM Technologies Co.
+              は、人々が使いたいと思うサービスにイノベーションを起こすことを専門としています。私たちの焦点は、常に技術を進歩させ、決して時代遅れにならないイノベーションを生み出すことです。
+            </p>
+            <h5 class="pb-3">会社情報</h5>
+            <div class="pl-2 pb-2">Company Name / 社名</div>
+            <div class="pl-4 pb-3">
+              TEM Technologies Co. 合同会社　(ティイーエムテクノロジーズ)
+            </div>
 
-        <div class="container">
+            <div class="pl-2 pb-2">Founded / 設立</div>
+            <div class="pl-4 pb-3">October 2025</div>
 
-            <div class="row align-items-center mr-auto">
-                <div class="col-md-8">
-                    <h3 class="section-title">About Us</h3>
-                    <p>東京EMテクノロジー(Tokyo EM Technology & Co.)は、人々が使いたいと思うサービスにイノベーションを起こすことを専門としています。私たちの焦点は、常に技術を進歩させ、決して時代遅れにならないイノベーションを生み出すことです。</p>
-                </div>
-             </div>
+            <div class="pl-2 pb-2">Capital / 資本</div>
+            <div class="pl-4 pb-3">九十万円 (資本準備金含)</div>
+
+            <div class="pl-2 pb-3">Our Services / 事業内容</div>
+            <div class="pl-4 pb-3">
+              ・ＩＴエンジニアの技術力やリソースの提供
+            </div>
+            <div class="pl-4 pb-3">
+              ・ブロックチェーンエンジニアの育成・技術者派遣
+            </div>
+            <div class="pl-4 pb-3">
+              ・書籍及び電子出版物の企画、編集、制作、出版
+            </div>
+            <div class="pl-4 pb-3">・ブロックチェーンネットワーク管理</div>
+
+            <p class="pl-3 pt-2 pb-4">
+              当社は東京で14年間ビジネス実績を作った技術力をベースに、ブロックチェーンに特化した事業を行います。当社には無人野菜販売所デモアプリ、ライドシェアのデモシステム、HTML5ゲームのeSportsプラットフォーム(Oraga
+              eSports)、チーム戦 x eスポーツ x
+              世界同時プレイが可能なMMORPG、いずれもブロックチェーンを利用したシステム開発のノウハウがございます。コンピュータシステム、コンピュータソフト開発の技術者によるアウトソーシングに関する御依頼は、<a
+                href="#company-footer"
+                >弊社Eメールアドレス</a
+              >よりお問い合わせください。
+            </p>
+
+            <div>◾️◻︎◻︎◾️メディア掲載◾️◻︎◻︎◾️</div>
+            <div>
+              ・株式会社LIFE PEPPER様:
+              https://www.lifepepper.co.jp/other/reskilling-company-recommend/
+            </div>
+            <div>
+              ・ｅスポーツ専門総合情報サイト: https://www.besporter.jp/27472/pr/
+            </div>
+            <div>
+              ・ｅスポーツ専門総合情報サイト: https://www.besporter.jp/28560/pr/
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="section">
-        <div class="container">
-            <h3 class="section-title mb-4">Expertises</h3>
+      <div class="container">
+        <h3 class="section-title mb-4">Expertises</h3>
 
-            <div class="row text-center">
-                <div class="col-lg-4">
-                    <a href="https://medium.com/@tickets.on.flow/flow-blockchain%E3%82%92%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AB%E6%B4%BB%E7%94%A8%E3%81%99%E3%82%8B%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AF%E4%BD%95-what-is-the-benefit-of-using-flow-blockchain-for-games-95cb31e770a6" class="card border-0 text-dark">
-                        <img class="card-img-top" src="imgs/img-5.jpg" alt="">
-                        <span class="card-body">
-                            <h4 class="title mt-4">Coding &amp; Designing</h4>
-                            <p class="xs-font">ゲーム開発で培った流動的なデザイン、ユーザーフレンドリーなインターフェース、常に手元に置いておきたくなるような使い勝手の良いWebサイトを制作しています。</p>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img class="card-img-top" src="imgs/img-6.jpg" alt="">
-                        <span class="card-body">
-                            <h4 class="title mt-4">Development</h4>
-                            <p class="xs-font">私たちは、約束した製品を常に迅速、正確、かつ納期通りにお届けします。</p>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img class="card-img-top" src="imgs/img-7.jpg" alt="">
-                        <span class="card-body">
-                            <h4 class="title mt-4">AI Model Analysis</h4>
-                            <p class="xs-font">大学の研究技術を駆使し、常に効率的なAIモデルを作成します。収益性を重視することで、最も合理的な提案を行うことができます。</p>
-                        </span>
-                    </a>
-                </div>
-            </div>
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <a
+              href="https://medium.com/@tickets.on.flow/flow-blockchain%E3%82%92%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AB%E6%B4%BB%E7%94%A8%E3%81%99%E3%82%8B%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AF%E4%BD%95-what-is-the-benefit-of-using-flow-blockchain-for-games-95cb31e770a6"
+              class="card border-0 text-dark"
+            >
+              <img class="card-img-top" src="imgs/img-5.jpg" alt="" />
+              <span class="card-body">
+                <h4 class="title mt-4">Coding &amp; Designing</h4>
+                <p class="xs-font">
+                  ゲーム開発で培った流動的なデザイン、ユーザーフレンドリーなインターフェース、常に手元に置いておきたくなるような使い勝手の良いWebサイトを制作しています。
+                </p>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img class="card-img-top" src="imgs/img-6.jpg" alt="" />
+              <span class="card-body">
+                <h4 class="title mt-4">Development</h4>
+                <p class="xs-font">
+                  私たちは、約束した製品を常に迅速、正確、かつ納期通りにお届けします。
+                </p>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img class="card-img-top" src="imgs/img-7.jpg" alt="" />
+              <span class="card-body">
+                <h4 class="title mt-4">AI Model Analysis</h4>
+                <p class="xs-font">
+                  大学の研究技術を駆使し、常に効率的なAIモデルを作成します。収益性を重視することで、最も合理的な提案を行うことができます。
+                </p>
+              </span>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="section" id="portfolio">
-        <div class="container">
-            <h3 class="section-title pb-4">Our Products</h3>
+      <div class="container">
+        <h3 class="section-title pb-4">Our Products</h3>
 
-            <div class="row text-center">
-                <div class="col-lg-4">
-                    <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img src="imgs/img-1.jpg" alt="" style="max-height: 212px;" class="box-shadow">
-                        <h6 class="mt-3 mb-2">Stock Expected Move Analysis</h6>
-                        <p class="xs-font">米国の一流大学のモデル分析ツールを使用し、金融プロフェッショナルが利用できる自己売買支援システムです。</p>
-                    </a> 
-                </div>
-                <div class="col-lg-4">
-                    <a target="_blank" href="https://tickets-on-flow.web.app/" class="card border-0 text-dark">
-                        <img src="imgs/img-1.png" alt="" style="height: 212px;" class="box-shadow">
-                        <h6 class="mt-3 mb-2">Tickets onFlow</h6>
-                        <p class="xs-font">ブロックチェーン技術を利用した次世代型SNSビジネスツールで、報酬は暗号資産ウォレットに即座に振り込まれます。</p>
-                    </a> 
-                </div>
-            </div>
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img
+                src="imgs/img-9.png"
+                alt=""
+                style="height: 212px"
+                class="box-shadow"
+              />
+              <h6 class="mt-3 mb-2">Orsga eSports</h6>
+              <p class="xs-font">
+                ブロックチェーン技術を活用し、ゲームプレイから賞金の受け取り、暗号通貨取引所への送金までがスムーズに行える仕組みが特徴のeスポーツプラットフォームです。
+              </p>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img
+                src="imgs/img-1.jpg"
+                alt=""
+                style="max-height: 212px"
+                class="box-shadow"
+              />
+              <h6 class="mt-3 mb-2">Stock Expected Move Analysis</h6>
+              <p class="xs-font">
+                米国の一流大学のモデル分析ツールを使用し、金融プロフェッショナルが利用できる自己売買支援システムです。
+              </p>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a
+              target="_blank"
+              href="https://tickets-on-flow.web.app/"
+              class="card border-0 text-dark"
+            >
+              <img
+                src="imgs/img-1.png"
+                alt=""
+                style="height: 212px"
+                class="box-shadow"
+              />
+              <h6 class="mt-3 mb-2">Tickets onFlow</h6>
+              <p class="xs-font">
+                ブロックチェーン技術を利用した次世代型SNSビジネスツールで、報酬は暗号資産ウォレットに即座に振り込まれます。
+              </p>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="section bg-overlay">
-
-        <div class="container">
-            <div class="infos mb-4 mb-md-2">
-            <div class="title">
-                <h6 class="subtitle font-weight-normal">目的があるのです。</h6>
-                <h6 class="subtitle font-weight-normal">Tokyo EM Technology & Co.は、地球にやさしく、革新的な技術を追求します。</h6>
-                <p class="font-small">常に人々が使いたくなるようなアイデアを提供していきます。</p>
+      <div class="container">
+        <div class="infos mb-4 mb-md-2">
+          <div class="title">
+            <h6 class="subtitle font-weight-normal">目的があるのです。</h6>
+            <h6 class="subtitle font-weight-normal">
+              TEM Technologies Co.
+              は、地球にやさしく、革新的な技術を追求します。
+            </h6>
+            <p class="font-small">
+              常に人々が使いたくなるようなアイデアを提供していきます。
+            </p>
+          </div>
+          <div id="company-footer" class="socials">
+            <div class="row justify-content-between">
+              <div class="col">
+                <a class="d-block subtitle"
+                  ><i class="fa fa-map-marker-alt"></i> 〒150-0021
+                  東京都渋谷区恵比寿西二丁目４番８号ウィンド恵比寿ビル８Ｆ</a
+                >
+                <a class="d-block subtitle"
+                  ><i class="fa fa-envelope"></i>
+                  inquiry@tem-technologies.org</a
+                >
+                <a class="d-block subtitle">
+                  <i class="fa fa-phone"></i> 事業所TEL: 03-6427-9204</a
+                >
+              </div>
             </div>
-            <div class="socials">
-                <div class="row justify-content-between">
-                    <div class="col">
-                        <a class="d-block subtitle"><i class="fa fa-map-marker-alt"></i> 272-0135 千葉県市川市日之出10-1-411</a>
-                        <a href="mailto:info@tokyo-em-technology.org?subject=お問い合わせ" class="d-block subtitle"><i class="fa fa-envelope"></i> info@tokyo-em-technology.org</a>
-                        <a class="d-block subtitle" target="_blank" href="https://twitter.com/geek_geek_t"><i class="ti-twitter"></i> 田原 崇 (CEO)</a>
-                    </div>
-                </div>
-            </div>
-        </div> 
+          </div>
         </div>
+      </div>
     </section>
 
-	<!-- core  -->
+    <!-- core  -->
     <script src="vendors/jquery/jquery-3.4.1.js"></script>
     <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap 3 affix -->
-	<script src="vendors/bootstrap/bootstrap.affix.js"></script>
-    
+    <script src="vendors/bootstrap/bootstrap.affix.js"></script>
+
     <!-- Owl carousel  -->
     <script src="vendors/owl-carousel/js/owl.carousel.js"></script>
 
-
     <!-- Ollie js -->
     <script src="js/Ollie.js"></script>
-
-</body>
+  </body>
 </html>
