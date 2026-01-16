@@ -11353,7 +11353,7 @@ a.text-dark:focus {
 }
 
 .infos {
-  height: 100px;
+  height: 130px;
   padding-bottom: 20px;
   color: #fff;
   display: -webkit-box;
@@ -11705,8 +11705,8 @@ p {
 }
 
 .navbar.affix-top {
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   background: transparent !important;
   padding-left: 0.4rem;
 }
@@ -11716,8 +11716,8 @@ p {
 }
 
 .navbar.affix {
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
   border-bottom: 1px solid #dee2e6;
 }
 
