@@ -1,0 +1,28 @@
+{
+  "theme_color": "#EE7A75",
+  "background_color": "#37445B",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "/imgs/maskable_icon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "/imgs/head.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-US",
+  "name": "TEM Technologies Co.",
+  "short_name": "TEM Technologies Co. - We have expertise as a pioneer in the Web3 and Flow blockchain field.",
+  "start_url": "https://tem-technologies.com/",
+  "scope": "https://tem-technologies.com/",
+  "description": "For blockchain development, put your trust in TEM Technologies Co. in Shibuya! TEM Technologies Co. was founded by a programmer with 14 years of proven experience in Tokyo.",
+  "id": "tem-technologies.com"
+}
